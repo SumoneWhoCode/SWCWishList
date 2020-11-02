@@ -22,6 +22,7 @@ public class WishesFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActivity().setTitle("Your Wishes");
         wishesItems = new ArrayList<>();
         wishesItems.add(new WishesItem(R.drawable.banner, "Wish 1"));
         wishesItems.add(new WishesItem(R.drawable.banner_2, "Wish 2"));
